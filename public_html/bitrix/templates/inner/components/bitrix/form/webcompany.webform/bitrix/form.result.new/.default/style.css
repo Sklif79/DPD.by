@@ -42,3 +42,34 @@ table.form-table td
 	background-repeat: no-repeat;
 	background-image: url(images/icon_warn.gif);
 }
+
+.feedback {
+	margin-bottom: 30px;
+}
+
+.feedback select {
+	border: 1px solid #ccc;
+	background: white;
+	padding: 3px 5px;
+	width: 325px;
+	float: right;
+}
+
+input[type="submit"], input[type="reset"] {
+	background-color: #dc0032;
+	border: 0 none;
+	border-radius: 0;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "pluto_sans_dpdlight",sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	height: 24px;
+	line-height: 22px;
+	outline: medium none;
+	text-align: center;
+	padding: 1px 20px 0;
+	margin: 10px 0;
+}
